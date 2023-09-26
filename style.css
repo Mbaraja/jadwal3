@@ -63,3 +63,23 @@ footer {
     font-size: 14px;
     color: #666;
 }
+
+/* Responsive CSS for Mobile */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .table th, .table td {
+        padding: 5px;
+    }
+
+    .table img {
+        width: 50px;
+    }
+}
